@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="search.css">
+    <!-- <script  src="lng_lat_Search.js"></script> -->
+    <script  src="Homesearch.js"></script>
+</head>
+<body>
+    <header>
+        <!-- loge -->
+        <nav>
+    
+        </nav>
+        <nav class="NavigationBar"> 
+            <a href="HomePage.html">主页</a>
+            <a href="#">关于</a>
+            <a href="#">服务</a>
+        </nav>
+        
+     </header>
+    <!-- 主要区块 -->
+    <div class="main">
+        <h1>
+            全球碎屑锆石数据库
+        </h1>
+        <h2>
+            Global Detrital Zircon Database
+        </h2>
+        <!-- 搜索框 -->
+        <div id="search">
+            经度范围
+            <input class="input-field" id="lng_L" type="text">
+            <input class="input-field" id="lng_R" type="text">
+            纬度范围
+            <input class="input-field" id="lat_L" type="text">
+            <input class="input-field" id="lat_R" type="text">
+            <button id="btn">搜索</button>
+        </div>
+    </div>
+    <!-- 介绍栏 -->
+    <div class="IntroductoryBar">
+        <span class="img_1">
+        </span >
+        <span class="img_2">  
+        </span>
+        <span class="img_3">
+        </span>
+        <span class="img_4">
+        </span>
+    </div>
+</body>
+<style>
+    .NavigationBar{
+        width: 99%;
+        height: 60px;
+        border: none;
+    }
+    h1{
+        font-size: 50px;
+        padding-top: 150px;
+        text-align: center;
+        color: #999;
+        margin-bottom: 5px;
+     }
+     h2{
+        margin-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        color: #999;
+     }
+    .main{
+        width: auto;
+        height: 600px;
+        background-image: url("Image/main.jpg");
+        background-size: cover; /* 使图片完全覆盖容器 */
+        background-position: center; /* 将图片居中显示 */
+        background-repeat: no-repeat; /* 禁止图片重复 */
+
+    }
+
+    #search{    
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    
+    .img_1{background-image:url("Image/4.jpg");}
+    .img_2{background-image:url("Image/1.jpg");}
+    .img_3{background-image:url("Image/3.jpg");}
+    .img_4{background-image:url("Image/2.jpg");}
+
+    .IntroductoryBar{
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-between; 
+        box-sizing: border-box;
+
+    }
+
+    .IntroductoryBar span{
+        height: 300px;
+        background-color: #999;
+        display: flex;
+        justify-content: space-between; /* 这将在元素之间分配空间 */
+        width: 24%; /* 确保容器占据其父元素的全部宽度 */
+        box-sizing: border-box; 
+    }
+</style>
+</html>

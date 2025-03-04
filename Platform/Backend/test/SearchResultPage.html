@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchResultsPage</title>
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="test_search.js"></script>
+    <script>   
+      // 等待DOM加载完成
+      document.addEventListener('DOMContentLoaded', function() {
+            // 从localStorage中获取数据
+            var storedData = JSON.parse(localStorage.getItem('testData'));
+
+            if (storedData) {
+                var resultList = document.getElementById('result');
+                
+                // 遍历数组并创建列表项
+                for(let i = 0;i<storedData.length;i++){
+                    var listItem = document.createElement('li');
+                    listItem.innerHTML = storedData[i];
+                    resultList.appendChild(listItem);
+                }
+               
+            } else {
+                // 处理没有找到数据的情况
+                var noDataMessage = document.createElement('li');
+                noDataMessage.textContent = 'No data found.';
+                resultList.appendChild(noDataMessage);
+            }
+         });
+    </script>
+</head>
+<body>
+    <header>
+        <!-- loge -->
+        <nav>
+    
+        </nav>
+        <nav class="NavigationBar"> 
+            <a href="HomePage.html">主页</a>
+            <a href="#">关于</a>
+            <a href="#">服务</a>
+        </nav>
+        
+     </header>
+    <!-- 搜索框 -->
+    <div id="search">
+        经度范围
+        <input class="input-field" id="lng_L" type="text" value=>
+        <input class="input-field" id="lng_R" type="text">
+        纬度范围
+        <input class="input-field" id="lat_L" type="text">
+        <input class="input-field" id="lat_R" type="text">
+        <button id ="btn" >搜索</button>
+    </div>
+    <div class="搜索结果如下">
+        搜索结果如下
+    </div>
+    <ul id="result">
+        
+    </ul>
+</body>
+<style>
+    .NavigationBar{
+        width: 99%;
+        height: 60px;
+        border: none;
+    }
+    .搜索结果如下{
+        margin-top: 18px;
+        margin-left: 8px;
+    }
+    #result li {
+    background-color: #f9f9f9; 
+    color: #333; 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px; 
+    list-style-type: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+ 
+    #result li:hover {
+        background-color: #e0e0e0; 
+    }
+</style>
+</html>

@@ -1,0 +1,34 @@
+    .NavigationBar{
+    display: flex; /* 使用Flexbox布局 */
+    justify-content: flex-end; /* 将子元素对齐到父元素的右侧 */
+    align-items: center; /* 垂直方向居中对齐 */
+    background-color: #A65E16;
+    padding: 10px; /* 可以根据需要添加内边距 */
+    height: 20px; /* 设定导航栏的高度 */
+    }
+    .NavigationBar a{
+    position: relative;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+    .NavigationBar a::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform:scaleX(0);
+        transition: transform .5s;
+    }
+    .NavigationBar a:hover:after{
+        transform-origin: left;
+        transform:scaleX(1);
+    }

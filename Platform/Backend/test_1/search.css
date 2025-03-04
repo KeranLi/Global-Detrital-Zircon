@@ -1,0 +1,40 @@
+#search{    
+    padding: 7px 10px;
+    top: 10px;
+    left: 20px;
+    width: 530px;
+    background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(3, 23, 39, 0.5);
+    border-radius: 7px;
+    margin-top: 60px;
+}
+#search input{
+    width: 65px;
+    margin-right: 10px;
+    height: 25px;
+    border: 1px solid rgba(27, 142, 236, 0.5);
+    border-radius: 5px;
+}
+
+#search button{
+    width: 45px;
+    height: 30px;
+    border: 1px solid rgba(27, 142, 236, 0.5);
+    border-radius: 5px;
+    background: rgba(27, 142, 236, 0.5);
+    color: #fff;
+    transition: background-color 0.3s, transform 0.1s;
+
+}
+#search button:hover{
+    cursor: pointer; 
+    background-color: #14478a;
+}
+#searchButton:active {
+        background-color: #ffffff; /* 点击时的背景色 */
+        transform: scale(0.98); /* 点击时稍微缩小按钮 */
+    }
+/* .input-field{
+    width: 50px;
+    height: 25px;
+} */

@@ -1,0 +1,44 @@
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '241'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '%?%241';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '378'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '%?%78';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '400'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '333'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '%?%33';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '2524.0'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '2524.0%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '1845.2'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '1845.2%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '2264.0'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '2264.0%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '1840.8'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '1840.8%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '1826.5'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '1826.5%?%';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 207Pb/206Pb age (Ma)` = '2521.0'
+-- WHERE `Published 207Pb/206Pb age (Ma)` LIKE '252%?%1.0';
+-- 
+-- UPDATE `global_u-pb`
+-- SET `Published 206Pb/238U age (Ma)` = '2540.0'
+-- WHERE `Published 206Pb/238U age (Ma)` LIKE '%?%2640.0';
+-- 
