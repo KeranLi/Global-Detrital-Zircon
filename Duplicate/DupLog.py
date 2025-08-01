@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2023-12-30
-# This module is mainly designed to remove duplicate samples
+# This module is mainly designed to record duplicate samples
 # Use add parse to run code on the terminal
 # ------------------------------------------------------------------------------------ #
 import argparse
