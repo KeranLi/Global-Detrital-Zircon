@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2023-12-27
-# Description: This script is used to interact with GPT-4 for data analysis.
+# Description: This script is used to interact with GPT-4 for data analysis in finding paper.
 # ------------------------------------------------------------------------------------ #
 import openai
 from Tools.collector import *
