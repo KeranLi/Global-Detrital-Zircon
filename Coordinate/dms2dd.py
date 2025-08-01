@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2024-04-30
-# This module is mainly designed to remove duplicate samples
-# Use add parse to run code on the terminal
+# Description: This module is designed to parse DMS (degrees, minutes, seconds) strings
+#              and convert them to decimal degrees.
+# Usage: Use argparse to run the code on the terminal.
+# Example:
+#     python parse_dms.py --dms "34°3'36\"N"
+# Note:
+#     - The input DMS string should be in a valid format (e.g., "34°3'36\"N", "34D3M36S", "34 3 36 N").
+#     - This module supports various DMS formats and can handle negative values and decimal points.
 # ------------------------------------------------------------------------------------ #
 import re
 
