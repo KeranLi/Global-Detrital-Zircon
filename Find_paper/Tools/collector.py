@@ -1,3 +1,17 @@
+# -*- coding: utf-8 -*-
+# ------------------------------------------------------------------------------------ #
+# Author: Keran Li, Nanjing University, keranli98@outlook.com
+# Date: 2023-12-18
+# Description: This script is designed to scrape academic articles from Google Scholar based on user-provided keywords.
+#              It extracts information such as title, author, citations, publication year, and more.
+#              The script can sort the results, save them to a CSV file, and plot the number of citations.
+# Usage: Run the script from the terminal using argparse to specify search keywords, number of results, and other options.
+# Note:
+#     - Ensure you have the required libraries installed (pandas, requests, beautifulsoup4, selenium, tqdm).
+#     - The script handles Google Scholar's anti-bot mechanism by using Selenium for manual captcha solving.
+#     - Be cautious with the number of results to avoid triggering Google Scholar's anti-bot mechanism.
+#     - The script supports saving results to a CSV file and plotting the results.
+# ------------------------------------------------------------------------------------ #
 import argparse
 import datetime
 import os
