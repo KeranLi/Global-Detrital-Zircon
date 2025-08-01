@@ -1,9 +1,15 @@
-# -*- coding: utf-8 -*-
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2024-04-30
-# This module is mainly designed to remove duplicate samples
-# Use add parse to run code on the terminal
+# Description: This module is designed to read a file containing DMS (degrees, minutes, seconds) coordinates,
+#              convert them to decimal degrees, and save the results to a new file.
+# Usage: Use argparse to run the code on the terminal.
+# Example:
+#     python convert_dms.py --input_file coordinates.xlsx --lat_column Latitude --lon_column Longitude --output_file converted_coordinates.xlsx
+# Note:
+#     - The input file should contain columns with DMS coordinates.
+#     - Supported file formats: .csv, .xlsx, .xls, .txt (tab-delimited).
+#     - The script will create new columns 'Latitude_DD' and 'Longitude_DD' with the converted decimal degrees.
 # ------------------------------------------------------------------------------------ #
 import pandas as pd
 import re
