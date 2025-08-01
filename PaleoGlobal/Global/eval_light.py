@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2024-05-15
-# Description: This script evaluates the globality of ancient light reconstructions.
+# Description: This script evaluates the globality of fast ancient reconstructions.
 # ------------------------------------------------------------------------------------ #
 import numpy as np
 from PaleoGlobal.Models.get_coordinates_df import get_lon_lat_for_dataframe
