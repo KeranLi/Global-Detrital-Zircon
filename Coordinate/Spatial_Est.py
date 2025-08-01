@@ -2,8 +2,9 @@
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2024-04-30
-# This module is mainly designed to remove duplicate samples
-# Use add parse to run code on the terminal
+# Description: This module is designed to estimate and correct latitudes and longitudes
+#              from an image based on user-selected points.
+# Usage: Use argparse to run the code on the terminal.
 # ------------------------------------------------------------------------------------ #
 import matplotlib.pyplot as plt
 import numpy as np
