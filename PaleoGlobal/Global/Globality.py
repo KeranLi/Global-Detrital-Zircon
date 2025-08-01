@@ -5,8 +5,7 @@
 # Description: This script is designed to reconstruct zircon data points to their positions at specified reconstruction times
 #              and evaluate the globality of the data over time using the GPlates reconstruction model.
 # Usage: Run the script from the terminal or a Python environment. Ensure you have the required libraries installed.
-# Example:
-#     python script_name.py
+
 # Note:
 #     - The script uses the GPlates reconstruction model (e.g., M2021) to reconstruct zircon data points.
 #     - It calculates the globality of the data by evaluating the proportion of activated grids over time.
