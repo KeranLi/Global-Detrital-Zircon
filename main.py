@@ -10,11 +10,11 @@ and computes globality values over a specified time range. The results are
 saved to a CSV file.
 
 Usage:
-    python zircon_globality_calculator.py
+    python main.py
 
 Requirements:
-    - PaleoGlobal library (https://github.com/your-repo/PaleoGlobal)
-    - gprm library (https://github.com/your-repo/gprm)
+    - PyGMT
+    - PyGplate
 
 Example:
     python zircon_globality_calculator.py
