@@ -1,3 +1,19 @@
+# -*- coding: utf-8 -*-
+# ------------------------------------------------------------------------------------ #
+# Author: Keran Li, Nanjing University, keranli98@outlook.com
+# Date: 2024-06-19
+# Description: This script is designed to reconstruct zircon data points to their positions at specified reconstruction times
+#              and evaluate the globality of the data over time using the GPlates reconstruction model.
+#              It also includes functions to plot geological maps with reconstructed continents and plates.
+# Usage: Run the script from the terminal or a Python environment. Ensure you have the required libraries installed.
+# Note:
+#     - The script uses the GPlates reconstruction model (e.g., M2021) to reconstruct zircon data points.
+#     - It calculates the globality of the data by evaluating the proportion of activated grids over time.
+#     - The script supports plotting geological maps with reconstructed continents and plates.
+#     - Ensure the input CSV file contains columns for 'Latitude', 'Longitude', and 'Best Age'.
+#     - The results are saved to a CSV file and can be plotted using the provided functions.
+#     - This script also includes a function to plot Kernel Density Estimation (KDE) maps for the reconstructed zircon data.
+# ------------------------------------------------------------------------------------ #
 import pandas as pd
 from gprm.datasets import Reconstructions
 # import matplotlib.pyplot as plt
