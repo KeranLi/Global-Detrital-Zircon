@@ -2,8 +2,16 @@
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
 # Date: 2024-04-30
-# This module is mainly designed to remove duplicate samples
-# Use add parse to run code on the terminal
+# Description: This module is designed to parse DMS (degrees, minutes, seconds) strings
+#              and convert them to decimal degrees. It demonstrates the conversion
+#              process with a list of example latitude and longitude strings.
+# Usage: This script can be run directly in a Python environment.
+# Example:
+#     python script_name.py
+# Note:
+#     - The script uses the `dms2dd` module to perform the conversion.
+#     - It handles various DMS formats, including those with spaces, hyphens, and different delimiters.
+#     - The script prints the converted decimal degrees for each input DMS string.
 # ------------------------------------------------------------------------------------ #
 from dms2dd import *
 
