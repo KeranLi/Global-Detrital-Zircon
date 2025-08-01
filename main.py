@@ -1,3 +1,30 @@
+#!/usr/bin/env python3
+"""
+Zircon Globality Calculator
+===========================
+
+Calculates globality over time for zircon data using the PaleoGlobal framework.
+
+This script loads preprocessed zircon data, initializes a rotation model,
+and computes globality values over a specified time range. The results are
+saved to a CSV file.
+
+Usage:
+    python zircon_globality_calculator.py
+
+Requirements:
+    - PaleoGlobal library (https://github.com/your-repo/PaleoGlobal)
+    - gprm library (https://github.com/your-repo/gprm)
+
+Example:
+    python zircon_globality_calculator.py
+
+Note:
+    - Ensure that the required libraries are installed.
+    - Update the file paths for the input CSV and output CSV as needed.
+    - The script assumes that the input CSV file is properly formatted.
+"""
+
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------------------------------ #
 # Author: Keran Li, Nanjing University, keranli98@outlook.com
